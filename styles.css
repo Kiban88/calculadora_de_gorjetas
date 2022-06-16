@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap);
+
+:root {
+    --primary-color: #3d492e ;
+    --secondary-color: #cccccc ;
+    --tertiary-color: #1c57203d ;
+}
+
+body {
+    background-color: var(--primary-color);  
+    font-size:15px;  
+    font-family: 'Roboto+Mono', 'Courier New', Courier;
+    }
+
+#container{
+    height: 525px;
+    width: 360px;
+    margin:100px auto;
+    background-color: var(--secondary-color);
+    box-shadow: 10px, 50px #000000;
+    border-radius: 10px;
+}
+
+.title{
+    background: antiquewhite;
+    font-size: 22px;
+    padding: 7px;
+    color: var(--primary-color);
+    text-transform: capitalize;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.tipsForm {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.InputForm {
+    background: antiquewhite;
+    width: 75px;
+    padding:5px,5px,8px,8px;
+}
+
+.InputForm:focus{
+    border: 3px solid red
+
+    }
+.SelectForm {
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.ButtonForm{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    margin: 30px auto;
+    background: var(--primary-color);
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    color: antiquewhite;
+    box-shadow: 5px #000000;
+}
+
+#totalTip {
+    text-align:center;
+    font-size:large;
+    margin-top:5px;
+}
+
+#each {
+    text-align:center; 
+    font-size: large;   
+}
